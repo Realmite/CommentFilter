@@ -1,11 +1,21 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "020a42d5-3a92-4ec6-89a4-4bfc2b6f64db": {
-      "ProjectGuid": "020a42d5-3a92-4ec6-89a4-4bfc2b6f64db",
+    "b8cd93cb-e2f0-4493-a764-f16c3f1863e7": {
+      "ProjectGuid": "b8cd93cb-e2f0-4493-a764-f16c3f1863e7",
       "DisplayName": "CommentFilter",
       "ColorIndex": 0
+    },
+    "8acd4d0e-600f-4f69-b567-6f7bf755f8db": {
+      "ProjectGuid": "8acd4d0e-600f-4f69-b567-6f7bf755f8db",
+      "DisplayName": "removeMultilineCommentsFromText_test",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
