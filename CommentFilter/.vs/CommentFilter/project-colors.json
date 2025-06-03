@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "020a42d5-3a92-4ec6-89a4-4bfc2b6f64db": {
+      "ProjectGuid": "020a42d5-3a92-4ec6-89a4-4bfc2b6f64db",
+      "DisplayName": "CommentFilter",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
