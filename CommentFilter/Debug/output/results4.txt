@@ -1,0 +1,13 @@
+Expected output: 
+#include <iostream>
+int main(){
+std::string s = "пример /* это не комментарий */ текста";
+return 0;
+} 
+Received output: 
+#include <iostream>
+int main(){
+std::string s = "пример /* это не комментарий */ текста";
+return 0;
+} 
+ 

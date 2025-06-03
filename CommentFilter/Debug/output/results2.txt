@@ -1,0 +1,14 @@
+Expected output: 
+#include <iostream>
+int main() {
+    return 0;
+}
+
+ 
+Received output: 
+#include <iostream>
+int main() {
+    return 0;
+}
+ 
+ 

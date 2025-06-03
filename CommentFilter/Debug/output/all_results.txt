@@ -1,0 +1,160 @@
+ 
+============================== 
+TEST CASE 1 
+============================== 
+Expected output: 
+
+#include <iostream>
+int main() {
+    return 0;
+} 
+Received output: 
+
+#include <iostream>
+int main() {
+    return 0;
+} 
+ 
+============================== 
+TEST CASE 2 
+============================== 
+Expected output: 
+#include <iostream>
+int main() {
+    return 0;
+}
+
+ 
+Received output: 
+#include <iostream>
+int main() {
+    return 0;
+}
+ 
+ 
+============================== 
+TEST CASE 3 
+============================== 
+Expected output: 
+#include <iostream>
+int main(){
+ int a = 5;  int b = 6;
+return 0;
+}
+ 
+Received output: 
+#include <iostream>
+int main(){
+ int a = 5;  int b = 6;
+return 0;
+}
+ 
+ 
+============================== 
+TEST CASE 4 
+============================== 
+Expected output: 
+#include <iostream>
+int main(){
+std::string s = "пример /* это не комментарий */ текста";
+return 0;
+} 
+Received output: 
+#include <iostream>
+int main(){
+std::string s = "пример /* это не комментарий */ текста";
+return 0;
+} 
+ 
+============================== 
+TEST CASE 5 
+============================== 
+Expected output: 
+#include <iostream>
+// только однострочные
+int main() {
+    // ничего лишнего
+    return 0;
+} 
+Received output: 
+#include <iostream>
+// только однострочные
+int main() {
+    // ничего лишнего
+    return 0;
+} 
+ 
+============================== 
+TEST CASE 6 
+============================== 
+Expected output: 
+#include <iostream>
+int main() {
+int a = 5;
+int b = 6;
+return 0;
+} 
+Received output: 
+#include <iostream>
+int main() {
+int a = 5;
+
+int b = 6;
+return 0;
+} 
+ 
+============================== 
+TEST CASE 7 
+============================== 
+Expected output: 
+#include <iostream>
+int main() {
+// Этот однострочный содержит /* но это не начало многострочного
+int x = 1;
+return 0;
+} 
+Received output: 
+#include <iostream>
+int main() {
+// Этот однострочный содержит /* но это не начало многострочного
+int x = 1;
+return 0;
+} 
+ 
+============================== 
+TEST CASE 8 
+============================== 
+Expected output: 
+#include <iostream>
+int main() {
+int y = 3;
+return 0;
+} 
+Received output: 
+#include <iostream>
+int main() {
+
+int y = 3;
+return 0;
+} 
+ 
+============================== 
+TEST CASE 9 
+============================== 
+Expected output: 
+#include <iostream>
+
+int main() {
+    std::string quote = "Это строка с экранированной кавычкой: \\\" и всё ещё строка";
+    std::cout << quote << std::endl;
+    return 0;
+} 
+Received output: 
+#include <iostream>
+
+int main() {
+    std::string quote = "Это строка с экранированной кавычкой: \\\" и всё ещё строка";
+    std::cout << quote << std::endl;
+    return 0;
+} 
+ 

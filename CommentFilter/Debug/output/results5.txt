@@ -1,0 +1,15 @@
+Expected output: 
+#include <iostream>
+// только однострочные
+int main() {
+    // ничего лишнего
+    return 0;
+} 
+Received output: 
+#include <iostream>
+// только однострочные
+int main() {
+    // ничего лишнего
+    return 0;
+} 
+ 

@@ -1,0 +1,15 @@
+Expected output: 
+#include <iostream>
+int main(){
+ int a = 5;  int b = 6;
+return 0;
+}
+ 
+Received output: 
+#include <iostream>
+int main(){
+ int a = 5;  int b = 6;
+return 0;
+}
+ 
+ 
